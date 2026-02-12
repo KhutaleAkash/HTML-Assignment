@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        body{
+            background-color: rgb(43, 43, 241);
+        }
+        .main{
+            margin: 50px auto;
+            background-color: white;
+            width: 70%;
+            height: auto;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 20px;
+            color: grey;
+        }
+        .part1{
+            display: flex;
+            gap: 30px;
+            justify-content: space-between;
+        }
+        input{
+            width: 250px;
+            padding: 5px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        label{
+            font-size: 12px;
+            color: black;
+            font-weight: bold;
+        }
+        .button button{
+            background-color: blue;
+            text-align: center;
+            padding: 10px;
+            width: 230px;
+            color: white;
+            border: transparent;
+            border-radius: 4px;
+        }
+        .button i{
+            color: white;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Registration</h1>
+        <h2>Personal Details</h2>
+        <div class="part1">
+            <div class="left">
+            <label for="name">Full Name</label><br>
+            <input type="text" placeholder="Enter Your Name" id="name" name="username">
+            </div>
+           <div class="middle">
+             <label for="Date of Birth">Date of Birth</label><br>
+            <input type="date" placeholder="Enter Date Of Birth" id="Date of Birth">
+
+           </div>
+            <div class="right">
+                <label for="email">Email</label><br>
+            <input type="email" placeholder="Enter Your Email" id="email">
+            </div>
+        </div>
+
+        <div class="part1">
+            <div class="left">
+            <label for="name">Mobile Number</label><br>
+            <input type="number" placeholder="Enter Your Number" id="name" name="username">
+            </div>
+           <div class="middle">
+             <label for="Date of Birth">Gender</label><br>
+            <input type="text" placeholder="Enter Your Gender" id="Date of Birth">
+
+           </div>
+            <div class="right">
+                <label for="email">Occupation</label><br>
+            <input type="email" placeholder="Enter Your Occupation" id="email">
+            </div>
+        </div>
+
+        <div class="part2">
+            <h2>Issue Details</h2>
+            <div class="part1">
+            <div class="left">
+            <label for="name">ID Type</label><br>
+            <input type="text" placeholder="Enter id type" id="name" name="username">
+            </div>
+           <div class="middle">
+             <label for="Date of Birth">Id Number</label><br>
+            <input type="number" placeholder="Enter Id Number" id="Date of Birth">
+
+           </div>
+            <div class="right">
+                <label for="email">Issue Authority</label><br>
+            <input type="text" placeholder="Enter Issue Department" id="email">
+            </div>
+        </div>
+
+        </div>
+
+        <div class="part1">
+            <div class="left">
+            <label for="name">Iuuse date</label><br>
+            <input type="date" placeholder="Enter date" id="name" name="username">
+            </div>
+           <div class="middle">
+             <label for="Date of Birth">Issue State</label><br>
+            <input type="text" placeholder="Enter state" id="Date of Birth">
+
+           </div>
+            <div class="right">
+                <label for="email">Expiry Date</label><br>
+            <input type="date" placeholder="Enter Expiry Date" id="email">
+            </div>
+        </div>
+
+        <div class="button">
+            <button>Next
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
