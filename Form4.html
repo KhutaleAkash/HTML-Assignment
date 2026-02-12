@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register Form</title>
+  <style>
+    *{
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #1c6b3c, #9bb400);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 900px;
+  height: 450px;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+}
+
+/* LEFT PANEL */
+.left{
+  width: 50%;
+  background: #0c5c63;
+  color: white;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0 100px 100px 0;
+}
+
+.left h1{
+  margin-bottom: 10px;
+}
+
+.left p{
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.btn-outline{
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 30px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+/* RIGHT PANEL */
+.right{
+  width: 50%;
+  padding: 50px;
+  text-align: center;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.social span{
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.or{
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.small{
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+form input{
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  background: #eee;
+}
+
+.btn{
+  background: #b7c800;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 150px;
+  cursor: pointer;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- LEFT SIDE -->
+  <div class="left">
+    <h1>Welcome Back!</h1>
+    <p>Provide your personal details to use all features</p>
+    <button class="btn-outline">SIGN IN</button>
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="right">
+    <h2>Register With</h2>
+
+    <div class="social">
+      <span>G+</span>
+      <span>f</span>
+      <span>🐙</span>
+      <span>in</span>
+    </div>
+
+    <p class="or">OR</p>
+    <p class="small">Fill Out The Following Info For Registration</p>
+
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button class="btn">SIGN UP</button>
+    </form>
+  </div>
+
+</div>
+
+</body>
+</html>
